@@ -38,5 +38,4 @@ set +e
 gh release create $tag --notes ""
 set -e
 gh release upload $tag ${project_name}_${tag}_${arch}_${os}.tar.gz
-rm $project_name
 rm ${project_name}_${tag}_${arch}_${os}.tar.gz
