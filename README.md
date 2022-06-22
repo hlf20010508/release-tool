@@ -21,11 +21,6 @@
 bash release-tool.sh tag_name project_directory_path
 ```
 
-可直接运行在线脚本
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/hlf20010508/release-tool/master/release-tool.sh)" tag_name project_directory_path
-```
-
 tag_name 是tag的名字
 
 project_directory_path 是要release的项目文件夹的路径
