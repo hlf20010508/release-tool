@@ -28,9 +28,8 @@ if [[ ! $tag ]]; then
 fi
 
 project_name=$(basename $workspace)
-system_info=$(uname -a)
-os=${system_info%% *}
-arch=${system_info##* }
+os=$(uname)
+arch=$(arch)
 
 cd $workspace
 bash compile.sh
