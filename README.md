@@ -8,7 +8,7 @@
 
 <br/>
 
-本脚本需要<href src="https://github.com/cli/cli.git">gh</href>
+本脚本需要<a href="https://github.com/cli/cli.git">gh</a>
 
 <br/>
 
