@@ -23,7 +23,7 @@ bash release-tool.sh tag_name project_directory_path
 
 可直接运行在线脚本
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/hlf20010508/vue-init/master/vue-init.sh) tag_name project_directory_path"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/hlf20010508/vue-init/master/vue-init.sh)" tag_name project_directory_path
 ```
 
 tag_name 是tag的名字
