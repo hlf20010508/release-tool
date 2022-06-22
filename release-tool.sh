@@ -24,6 +24,7 @@ workspace=$2
 
 if [[ ! $tag ]]; then
     help
+    exit 1
 fi
 
 project_name=$(basename $workspace)
